@@ -9,6 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+
         <activity
             android:name=".SplashActivity"
             android:label="@string/app_name"
@@ -23,16 +24,17 @@
         <activity
             android:name=".MainActivity">
         </activity>
-
+        <activity
+            android:name=".subactivity.SendMessageActivity">
+        </activity>
+        <activity
+            android:name=".subactivity.EventActivity">
+        </activity>
         <activity
             android:name=".subactivity.AboutActivity"
             android:label="@string/title_activity_about" >
         </activity>
 
-        <activity
-            android:name=".subactivity.SendActivity"
-            android:label="@string/title_activity_send" >
-        </activity>
     </application>
 
 </manifest>
