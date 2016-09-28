@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Городки ассистент</string>
+
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <!-- Menu -->
+    <string name="menu_event">Мероприятие</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_rank">Ранг</string>
+
+
+    <string name="menu_communicate">сообщаться</string>
+    <string name="menu_send">Написать</string>
+
+    <string name="choise_classical">Традиционные</string>
+
+    <string name="author_name">Дулов Олег</string>
+    <string name="author_email">ol.dulov@yandex.ru</string>
+
+</resources>

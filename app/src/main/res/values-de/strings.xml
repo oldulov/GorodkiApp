@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Gorodki Assistent</string>
+
+    <string name="navigation_drawer_open">Navigationsleiste öffnen</string>
+    <string name="navigation_drawer_close">Navigationsleiste schließen</string>
+
+    <string name="action_settings">Einstellungen</string>
+
+    <!-- Menu -->
+    <string name="menu_event">Event</string>
+    <string name="menu_about">Über</string>
+    <string name="menu_rank">Rank</string>
+
+
+    <string name="menu_communicate">Kommunizieren</string>
+    <string name="menu_send">Send</string>
+
+    <string name="choise_classical">traditionell</string>
+
+    <string name="author_name">Dulov Oleg</string>
+    <string name="author_email">ol.dulov@yandex.ru</string>
+
+</resources>

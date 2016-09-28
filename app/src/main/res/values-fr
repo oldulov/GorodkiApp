@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GorodkiApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Language select dialog -->
+    <string-array name="lang_select">
+        <item>Русский</item>
+        <item>Deutsch</item>
+        <item>English</item>
+    </string-array>
+
+</resources>
