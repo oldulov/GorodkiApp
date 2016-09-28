@@ -15,6 +15,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.dulov.gorodki.gorodkiapp.subactivity.AboutActivity;
+import com.dulov.gorodki.gorodkiapp.subactivity.SendActivity;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -79,12 +82,39 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    private void navEvent(){
+
+    }
+
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        // Handle item selection
+        switch (id) {
+            case R.id.nav_event:
+                navEvent();
+                break;
+            case R.id.nav_about:
+                Intent intent_about = new Intent(this, AboutActivity.class);
+                this.startActivity(intent_about);
+                break;
+            case R.id.nav_send:
+                Intent intent_send = new Intent(this, SendActivity.class);
+                this.startActivity(intent_send);
+                break;
+            default:
+                //return super.onOptionsItemSelected(item);
+                DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+                break;
+        }
+
+        return true;
+
+        /**
         if (id == R.id.nav_event) {
             // Handle the camera action
         } else if (id == R.id.nav_about) {
@@ -109,9 +139,8 @@ public class MainActivity extends AppCompatActivity
             return true;
 
         }
+         **/
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+
     }
 }
